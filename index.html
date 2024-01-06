@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weatherForecast.css">
+</head>
+<body style="background-image: url(https://www.teahub.io/photos/full/288-2884118_4k-wallpaper-weather.jpg);">
+    <div class="mdiv">
+           <div class="weather_app">
+        <h2 align="center">WEATHER FORECAST</h2>
+        <div class="ip">
+            <input type="text" id="userText" style="color: black;">
+            <button onclick="getWeatherData();"> <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" height="30px" width="30px"></button>
+        </div>
+        <div class="info" align="center">
+            <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="" class="weather_img">
+            <h1 id="temp">27</h1>
+            <h2 id="city">PUNE</h2>
+        </div>
+        <div class="info2">
+            <div class="humidity">
+                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/hot-weather-1619096-1372633.png" alt="" class="humi">
+                <h3>HUMIDITY</h3>
+                <h4 id="humidity-info">50%</h4>
+            </div>
+            <div class="wind">
+                <img src="https://cdn-icons-png.flaticon.com/512/1247/1247767.png" alt="" class="humi">
+                <h3>WIND</h3>
+                <h4 id="wind-info">4km/h</h4>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="weatherScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: whitesmoke;
+    
+}
+.mdiv{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://www.teahub.io/photos/full/288-2884118_4k-wallpaper-weather.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather_app{
+    height:700px ;
+    width: 450px;
+    background-image: linear-gradient(to right, #5d6062,#0f1010);
+    box-shadow: 0px 0px 30px skyblue;
+    border-radius: 50px;
+    padding: 30px;
+}
+.ip{
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: relative;
+}
+.ip input{
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.ip button{
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    cursor: pointer;
+}
+.weather_img{
+    height: 250px;
+}
+#temp{
+    font-size: 50px;
+    font-family: Arial Black;
+
+}
+#city{
+    font-size: 35px;
+    font-family: Arial Black;
+    color: orangered;
+}
+.humi{
+    height: 80px;
+}
+.info2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind,.humidity{
+    margin: 10px 60px 0px;
+}
